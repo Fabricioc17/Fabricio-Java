@@ -19,6 +19,7 @@ public class e10 {
         String messi = input.nextLine();
         //Saida de dados: print usado para mostar uma msg na tela 
         System.out.print("Jogo do Penalti ");
+        System.out.println("Consiste em você escolher o canto para bater e defender ");
         System.out.println("Instruções: 1=DIREITA, 2=ESQUERDA, 3=MEIO");
         //Operador: + foi usado para adicionar o nome a frase 
         System.out.println("VAI PARA BOLA " + messi);
@@ -32,7 +33,7 @@ public class e10 {
 
         System.out.println("GOLLLLL!");
 
-        System.out.println("Agora você vai defender, está pronto!");
+        System.out.println("Agora você vai defender, está pronto(a)!");
         System.out.print("SERÁ BRASIL: ");
         
         int defesa = input.nextInt(); 
@@ -46,7 +47,7 @@ public class e10 {
 
         System.out.println("PENALTI FINAL");
         System.out.println("SERÁ  HEXA BRASIL");
-        System.out.print("BATIDA FINAL VAI PARA BOLA " + messi  );
+        System.out.println("BATIDA FINAL VAI PARA BOLA " + messi  );
         
         int legal = input.nextInt(); 
         while (legal != 1){       
